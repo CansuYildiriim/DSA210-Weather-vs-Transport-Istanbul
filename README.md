@@ -1,4 +1,4 @@
-# Understanding the Relationship Between Weather, Major Events, and Public Transportation Usage in Istanbul
+# Understanding the Relationship Between Weather, Major Events(Football Match Days), and Public Transportation Usage in Istanbul
 
 ## Motivation
 I chose this project because I live in Istanbul, and I’ve always noticed how weather and big events can change the way people travel.  
@@ -19,15 +19,6 @@ My goal is to see if there are clear patterns and to visualize them with graphs.
 - **Major Events Data:** Dates of big football matches in Istanbul from the Turkish Football Federation (TFF).  
   - For each date, I will mark 1 if there is a match and 0 if not.
 
-## Data Columns
-| Column | Meaning |
-|--------|----------|
-| `date` | Date of observation |
-| `temperature` | Average daily temperature in °C |
-| `rain` | Total rainfall in mm |
-| `passenger_count` | Number of passengers (from IETT) |
-| `is_match_day` | 1 if there was a football match that day, 0 otherwise |
-
 ## Method
 1. Collect and clean the data (fix missing or strange values).  
 2. Add the match-day column.  
@@ -40,9 +31,4 @@ I think rainy days and match days will both increase the number of people using 
 I also expect that on sunny match days, people might prefer walking or driving, so the pattern could change.  
 By the end, I want to have some simple graphs showing these relationships clearly.
 
-## Tools I Plan to Use
-- Python  
-- pandas, numpy  
-- matplotlib, seaborn  
-- maybe scikit-learn later for a simple prediction test
 
