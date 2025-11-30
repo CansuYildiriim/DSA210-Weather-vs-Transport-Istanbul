@@ -16,6 +16,37 @@ Are there differences between weekdays and weekends?
 Weather Data: Daily temperature, rainfall, and humidity values from the Turkish State Meteorological Service (MGM).
 Transportation Data: Daily passenger counts from the IETT Open Data Portal.
 Major Events Data: Dates of big football matches in Istanbul from the Turkish Football Federation (TFF). For each date, I will mark 1 if there is a match and 0 if not.
+## 📊 Data Sources
+
+This project uses three different datasets to analyze the relationship between **weather conditions**, **public transportation usage**, and **football match days** in Istanbul.  
+Below are the official sources where the datasets were obtained:
+
+---
+
+### 🌦️ Weather Data  
+**Source:** Open-Meteo API  
+- Website: https://open-meteo.com/en  
+- Format: JSON → converted to CSV  
+- Parameters used: daily & hourly temperature, humidity, precipitation, wind speed, etc.
+
+---
+
+### 🚌 Public Transportation Data  
+**Source:** İBB Açık Veri Portalı (Istanbul Metropolitan Municipality Open Data Platform)  
+- Website: https://data.ibb.gov.tr/  
+- Dataset: “İETT Yolcu Geçiş Verisi (Saatlik)”  
+- Description: Hourly passenger transitions for bus, metrobus, tram, and other transportation lines across Istanbul.
+
+---
+
+### ⚽ Match Day Data  
+**Source:** Manually curated fixture list (official match dates)  
+- Primary information reference:  
+  - Turkish Football Federation (TFF): https://www.tff.org  
+  - Karşılaşma tarihleri manually transferred into `matches.csv`.
+
+---
+
 
 ---
 
