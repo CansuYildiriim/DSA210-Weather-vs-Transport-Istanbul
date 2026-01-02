@@ -152,6 +152,7 @@ Potential future improvements include:
 
 ```├── notebooks/
 │   └── EDA_Submission.ipynb
+|   |__ EDA.ipynb
 ├── data/
 │   ├── cleaned_data/
 │   │   └── transport_clean_full.csv
@@ -160,7 +161,19 @@ Potential future improvements include:
 ├── src/
 ├── requirements.txt
 └── README.md 
+```
 
+## Notebooks Overview
+
+The project notebooks are organized to reflect the two-stage development process:
+
+- **EDA.ipynb**  
+  Exploratory Data Analysis and statistical investigation completed for the **November deliverable**.  
+  This notebook focuses on data cleaning, aggregation, visualization, correlation analysis, and hypothesis testing.
+
+- **EDA_Submission.ipynb**  
+  Machine Learning extension prepared for the **January deliverable**.  
+  This notebook builds on the finalized dataset from the EDA stage and applies baseline and predictive models using a time-aware train/test split.
 
 
 
